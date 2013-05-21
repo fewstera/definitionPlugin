@@ -1,10 +1,12 @@
 {
+  "kango_version": "1.0.1 final", 
   "content_scripts": [
-    "content.js",
+    "content.js", 
     "loadMenu.js"
   ], 
   "description": "Extension description", 
   "creator": "KangoExtensions", 
+  "developer_id": "YOUR_SAFARI_DEVELOPER_ID", 
   "background_scripts": [
     "main.js"
   ], 
@@ -12,8 +14,9 @@
   "version": "1.11", 
   "browser_button": {
     "caption": "Kango", 
-    "icon": "icons/button.png", 
-    "tooltipText": "Kango"
+    "tooltipText": "Kango", 
+    "icon": "icons/button.png"
   }, 
+  "id": "com.kangoextensions.definitionplugin", 
   "name": "DefinitionPlugin"
 }

@@ -1,6 +1,7 @@
 {
+  "kango_version": "1.0.1 final", 
   "content_scripts": [
-    "content.js",
+    "content.js", 
     "loadMenu.js"
   ], 
   "description": "Extension description", 
@@ -12,8 +13,9 @@
   "version": "1.11", 
   "browser_button": {
     "caption": "Kango", 
-    "icon": "icons/button.png", 
-    "tooltipText": "Kango"
+    "tooltipText": "Kango", 
+    "icon": "icons/button.png"
   }, 
+  "id": "http://kangoextensions.com/extensions/definitionplugin/", 
   "name": "DefinitionPlugin"
 }

@@ -1,3 +1,6 @@
 {
-  "id": "{8BA55F90-FD9E-4AD7-A842-D88FBBA8E6B6}"
+  "id": "{8BA55F90-FD9E-4AD7-A842-D88FBBA8E6B6}",
+  "permissions": [
+    "contextMenus"
+  ]
 }
