@@ -1,3 +1,0 @@
-content DefinitionPlugin_kango chrome/content/
-overlay chrome://browser/content/browser.xul chrome://DefinitionPlugin_kango/content/content.xul
-resource DefinitionPlugin_kango chrome/content/
