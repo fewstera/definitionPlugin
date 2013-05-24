@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-bold.eot');
+    src: url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-bold.woff') format('woff'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-bold.ttf') format('truetype'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-bold.svg#opensans-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-regular.eot');
+    src: url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-regular.woff') format('woff'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-regular.ttf') format('truetype'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-regular.svg#opensans-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-semibold.eot');
+    src: url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-semibold.woff') format('woff'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-semibold.ttf') format('truetype'),
+         url('http://localhost/definitionScrubber/pluginFiles/fonts/opensans-semibold.svg#opensans-semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

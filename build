@@ -1,4 +1,4 @@
 #!/bin/bash 
 ~/kango/kango.py build "."
-killall firefox
-/Applications/Firefox.app/Contents/MacOS/firefox http://google.co.uk/ &
+#killall firefox
+#/Applications/Firefox.app/Contents/MacOS/firefox http://google.co.uk/ &

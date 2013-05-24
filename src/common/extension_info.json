@@ -9,7 +9,7 @@
     "main.js"
   ], 
   "homepage_url": "http://kangoextensions.com/", 
-  "version": "1.11", 
+  "version": "1.15", 
   "browser_button": {
     "caption": "Kango", 
     "icon": "icons/button.png", 

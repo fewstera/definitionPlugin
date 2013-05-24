@@ -1,38 +1,18 @@
 ﻿// ==UserScript==
-// @name            Google Image Search Context Menu
+// @name            Safari Adapter
 // @include         http://*
 // @include			https://*
 // @require			jquery.min.js
 // ==/UserScript==
 
-if (!("contextMenu" in document.documentElement &&
-      "HTMLMenuItemElement" in window)) return;
+document.addEventListener("contextmenu", handleContextMenu, false);
 
-var body = document.body;
-body.addEventListener("contextmenu", initMenu, false);
-
-var menu = body.appendChild(document.createElement("menu"));
-menu.outerHTML = '<menu id="definition-plugin" type="context">\
-                    <menuitem label="Define"\></menuitem>\
-                  </menu>';
-document.querySelector("#definition-plugin menuitem")
-        .addEventListener("click", loadDefinitions, false);
-
-function initMenu(aEvent) {
-  var item = document.querySelector("#definition-plugin menuitem");
-  
-  var totalSelection = $.trim(window.getSelection());
-  if(totalSelection.split(' ').length<5){
-    body.setAttribute("contextmenu", "definition-plugin");
-    item.setAttribute("defineText", $.trim(window.getSelection()));
-  } else {
-    body.removeAttribute("contextmenu");
-    item.removeAttribute("defineText");
-  }
+function handleContextMenu(event) {
+	kango.console.log(window.getSelection().toString());
+    safari.self.tab.setContextMenuEventUserInfo(event, window.getSelection().toString());
 }
 
 
-function loadDefinitions(aEvent){
-	var defineText = aEvent.target.getAttribute("defineText");
-	alert('Loading your definiton of ' + defineText + ' right now!');
-}
+kango.addMessageListener('defineMessage', function(event) {
+	loadDefinitions(event.data);
+});

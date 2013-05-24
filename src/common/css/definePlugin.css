@@ -1,0 +1,104 @@
+@import url('resource://css/fonts.css');
+
+ul.flag						{ list-style:none; display:inline-block; margin:0px;}
+ul.flag li					{ display:inline-block; font-size:12px; padding:3px 0px; width:204px;}
+ul.flag li a				{ padding-left:24px; background:url(resource-image://images/flags.png) no-repeat; line-height:12px; font-size:12px; color:#7f8282; text-decoration:none;}
+ul.flag li a.arab			{ background-position:-0px -143px;}
+ul.flag li a.czech			{ background-position:-0px -164px;}
+ul.flag li a.german			{ background-position:-0px -185px;}
+ul.flag li a.italian		{ background-position:-0px -206px;}
+ul.flag li a.norway			{ background-position:-0px -226px;}
+ul.flag li a.brasileiro		{ background-position:-0px -245px;}
+ul.flag li a.swedish		{ background-position:-0px -264px;}
+ul.flag li a.herbew			{ background-position:-0px -285px;}
+ul.flag li a.chinese		{ background-position:-0px -309px;}
+ul.flag li a.dutch			{ background-position:-0px -309px;}
+ul.flag li a.greek			{ background-position:-0px -330px;}
+ul.flag li a.japanese		{ background-position:-0px -351px;}
+ul.flag li a.polish			{ background-position:-0px -371px;}
+ul.flag li a.russian		{ background-position:-0px -391px;}
+ul.flag li a.thai			{ background-position:-0px -411px;}
+ul.flag li a.chinese		{ background-position:-0px -430px;}
+ul.flag li a.french			{ background-position:-0px -21px;}
+ul.flag li a.indonesia		{ background-position:-0px -42px;}
+ul.flag li a.korean			{ background-position:-0px -62px;}
+ul.flag li a.portuguese		{ background-position:-0px -82px;}
+ul.flag li a.spanish		{ background-position:-0px -103px;}
+ul.flag li a.turkish		{ background-position:-0px -121px;}
+
+/*********************************************************************
+
+						CSS FOR ADDONS
+
+********************************************************************/
+
+
+
+#definitionAddon						{ 
+							font-size:14px; font-family: 'OpenSans'; margin:0; padding:0;
+							width:450px;
+							z-index: 999;
+							top: 10px;
+							
+							min-width:300px; min-height:400px;
+							display: block;
+							border:#e7e7e7 1px solid;
+							border-radius:4px;
+							margin:10px 50px 20px;
+							position:absolute;
+							padding:10px 15px;
+							
+							
+
+							background: #f9f9f9; /* Old browsers */
+							background: -moz-linear-gradient(top, #f9f9f9 0%, #f4f4f4 100%); /* FF3.6+ */
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#f4f4f4)); /* Chrome,Safari4+ */
+							background: -webkit-linear-gradient(top, #f9f9f9 0%,#f4f4f4 100%); /* Chrome10+,Safari5.1+ */
+							background: -o-linear-gradient(top, #f9f9f9 0%,#f4f4f4 100%); /* Opera 11.10+ */
+							background: -ms-linear-gradient(top, #f9f9f9 0%,#f4f4f4 100%); /* IE10+ */
+							background: linear-gradient(to bottom, #f9f9f9 0%,#f4f4f4 100%); /* W3C */
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+							}
+#definitionAddon	.georgia					{ font-family:Georgia, "Times New Roman", Times, serif;}
+#definitionAddon	h2						{ margin:5px 0px;line-height:0px; font-size:0px; text-indent:-9999px; display:inline-block;}
+#definitionAddon *						{ color:#7F8282; font-size:12px; }
+#definitionAddon h1.word					{ display:inline-block; font-size:16px; letter-spacing:2px; font-family:Georgia, "Times New Roman", Times, serif; color:#086b9c;}
+#definitionAddon ol						{ margin:5px 20px; padding:0;}
+#definitionAddon ul.words					{ list-style:none;}
+#definitionAddon ul.words	li				{ display:inline; width:auto; padding:5px 0px;}
+#definitionAddon ul						{ padding:0;}
+#definitionAddon ol li					{ padding:5px 0px;}
+
+#definitionAddon	.powered_by				{ background:url(resource-image://images/powered_by.png) top left no-repeat; width:180px; height:16px; float:right;line-height:0px; font-size:0px; text-indent:-9999px; display:inline-block;}
+#definitionAddon	.dictionary				{ background:url(resource-image://images/dictionary_head.png) top  center no-repeat; width:100%; height:16px;}	
+#definitionAddon	.THESAURUS				{ background:url(resource-image://images/treasures_head.png) top  center no-repeat; width:100%; height:16px;}	
+#definitionAddon	.translations			{ background:url(resource-image://images/translations_head.png) top  center no-repeat; width:100%; height:16px;}							
+
+#definitionAddon	.addon-arrow			{ background:url(resource-image://images/arrow-addon.png) top left no-repeat; width:19px; height:31px; position:absolute; left:-19px; top:20px;}
+#definitionAddon	.addon-bottom			{ background:url(resource-image://images/addon-btm.png) top center no-repeat; width:100%; height:14px; position:absolute; bottom:-14px;}
+
+#definitionAddon	.translation			{ text-align:center; width:190px;position:relative; margin:0px auto; }
+#definitionAddon a.translate:hover		{ background:url(resource-image://images/btnTranslate_hover.png) top left no-repeat; color:#fff;}
+
+#definitionAddon	ul.lang						{ width:180px; padding:15px;border-radius:4px; z-index:10; text-align:left; position:absolute; top:46px; left:5px; display:none; background:#ffffff; border:#cfcfcf 1px solid;}
+#definitionAddon .translation:hover ul.lang	{ display:block;}
+#definitionAddon a.more_lang					{ background:none; text-decoration:underline; color:#086b9c;}
+
+
+#definitionAddon	a.button					{ background:url(resource-image://images/button_bg.png) top left no-repeat; width:184px; font-size:12px; text-decoration:none; height:38px; display:inline-block; line-height:38px; font-weight:bold;}
+#definitionAddon	a.button:hover				{ background:url(resource-image://images/button_bg_hover.png) top left no-repeat; color:#fff;}
+#definitionAddon	a.button span.drop			{ background:url(resource-image://images/dropdown.png) top left no-repeat; width:10px; height:6px; display:inline-block; margin-left:5px;}
+#definitionAddon	a.button:hover span.drop	{ background:url(resource-image://images/dropdown_hover.png) top left no-repeat;}
+#definitionAddon	.center						{ text-align:center; width:100%; display:inline-block; margin:10px 0px 20px;}
+
+#definitionOverlay {
+	position:fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	right: 0;
+	z-index: 900;
+	background-color: transparent;
+}
